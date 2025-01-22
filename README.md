@@ -168,7 +168,7 @@ The request body should be a raw JSON object with the following fields:
 
 ---
 
-#### Update Product
+#### Update Product by Id
 
 ```http
   PUT /api/products/{id}
@@ -204,7 +204,7 @@ The request body should be a raw JSON object with the following fields:
 
 ---
 
-#### Create Product by Id
+#### Get Product by Id
 
 ```http
   GET /api/products/{id}
